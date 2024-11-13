@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Celebration</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to right, #ffafbd, #ffc3a0);
+      color: #fff;
+      text-align: center;
+    }
+
+    .birthday-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .header {
+      margin-top: 20px;
+    }
+
+    .header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .header p {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+
+    .video-section {
+      margin: 30px 0;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .video-container {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 100%;
+    }
+
+    .message-section {
+      margin: 20px 0;
+      padding: 0 20px;
+    }
+
+    .message-section h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .message-section p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 1em;
+      color: #fff;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Media Queries for Responsive Design */
+    @media (max-width: 768px) {
+      .header h1 {
+        font-size: 2em;
+      }
+      .header p {
+        font-size: 1.2em;
+      }
+      .video-section {
+        margin: 20px 0;
+      }
+      .video-container iframe {
+        height: 250px;
+      }
+      .message-section h2 {
+        font-size: 1.5em;
+      }
+      .message-section p {
+        font-size: 1em;
+      }
+      .footer {
+        font-size: 0.9em;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .header h1 {
+        font-size: 1.8em;
+      }
+      .header p {
+        font-size: 1em;
+      }
+      .video-container iframe {
+        height: 200px;
+      }
+      .message-section h2 {
+        font-size: 1.3em;
+      }
+      .message-section p {
+        font-size: 0.9em;
+      }
+      .footer {
+        font-size: 0.8em;
+      }
+    }
+    .h3, h3 {
+    font-size: 1.2rem;
+}
+  </style>
+</head>
+<body>
+  <div class="birthday-container">
+    <header class="header animate__animated animate__fadeInDown" data-aos="fade-down">
+      <h3>🎉 Happy Birthday! mummy 🎉</h3>
+      <p>Celebrate your special day with us!</p>
+    </header>
+
+    <!-- YouTube Embed Section -->
+    <section class="video-section animate__animated animate__zoomIn" data-aos="zoom-in">
+      <div class="video-container">
+        <iframe width="100%" height="450" src="https://www.youtube.com/embed/zMz8TNhBmfI?autohide=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="message-section animate__animated animate__slideInUp" data-aos="slide-up">
+      <h2>Wishing You a Day Filled with Love and Happiness pichhi</h2>
+      <p>May all your dreams come true on your special day.</p>
+    </section>
+
+    <footer class="footer animate__animated animate__fadeOutUp" data-aos="fade-up">
+      <p>© 2024 Birthday Celebration. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+    });
+  </script>
+</body>
+</html>
